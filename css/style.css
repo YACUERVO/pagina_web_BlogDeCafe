@@ -88,8 +88,15 @@ img {
 
 /* Header */
 
-.header {
+.webp .header {
+    background-image: url(../img/banner.webp);
+}
+
+.no-webp .header {
     background-image: url(../img/banner.jpg);
+}
+
+.header {
     height: 60rem;
     /* Height. Altura de la imagen */
     background-size: cover;
